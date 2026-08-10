@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="seremban_barat" id="seremban_barat">
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Folder><name>seremban_barat</name>
+  <Placemark id="seremban_barat.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#seremban_barat">
+		<SimpleData name="id">seremban_barat.1</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>101.875727027428,2.66380905735824 101.856768829998,2.67644785564518 101.841568113139,2.67798500678819 101.832686795424,2.65953919307211 101.824488655995,2.63033332135499 101.827221369138,2.61154591849603 101.832686795424,2.60830082163857 101.845496388283,2.61086274021025 101.854377705998,2.64553403821361 101.869236833713,2.64997469707118 101.876410205714,2.65748965821477 101.875727027428,2.66380905735824</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="seremban_barat.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#seremban_barat">
+		<SimpleData name="id">seremban_barat.2</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>101.875727027428,2.66380905735824 101.856768829998,2.67644785564518 101.841568113139,2.67798500678819 101.832686795424,2.65953919307211 101.824488655995,2.63033332135499 101.827221369138,2.61154591849603 101.832686795424,2.60830082163857 101.845496388283,2.61086274021025 101.854377705998,2.64553403821361 101.869236833713,2.64997469707118 101.876410205714,2.65748965821477 101.875727027428,2.66380905735824</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

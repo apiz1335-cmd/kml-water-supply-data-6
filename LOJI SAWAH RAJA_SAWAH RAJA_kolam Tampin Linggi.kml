@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="kolam_linggi" id="kolam_linggi">
+	<SimpleField name="fid" type="float"></SimpleField>
+</Schema>
+<Folder><name>kolam_linggi</name>
+  <Placemark id="kolam_linggi.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#kolam_linggi">
+		<SimpleData name="fid">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>101.998948737333,2.49724593731063 102.002686378131,2.49546610835904 102.003614431799,2.49638780549469 102.003046581609,2.50016146664086 102.003173712249,2.50285663619613 102.002851647962,2.50519583996108 102.002190568637,2.50661970312235 102.001016729067,2.50995052587461 101.999986970888,2.51139981516377 101.99954201365,2.5126838346217 101.99828342032,2.51463740878047 101.999147908668,2.51468826103623 101.999249613179,2.51565445389567 101.998588533854,2.51626468096478 101.99708839231,2.51837504957881 101.994494927266,2.51669692513874 101.993732143429,2.51491709618715 101.999427596074,2.50728925782319 101.998919073517,2.49869522659979 101.998948737333,2.49724593731063</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="350mm_bukit_tunggal" id="350mm_bukit_tunggal">
+	<SimpleField name="fid" type="float"></SimpleField>
+</Schema>
+<Folder><name>350mm_bukit_tunggal</name>
+  <Placemark id="350mm_bukit_tunggal.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#350mm_bukit_tunggal">
+		<SimpleData name="fid">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>101.955091241509,2.51467284054285 101.957591777012,2.50857903734351 101.957985160602,2.50794525267125 101.958165461414,2.50774309721545 101.964437744205,2.50429188470416 101.968939800842,2.50617138407706 101.977667088628,2.51253837032479 101.978366437232,2.52687501670411 101.99794819814,2.53246980553506 101.989556014894,2.55240124074534 101.975569042816,2.55729668097242 101.964029790852,2.5510025435376 101.955091241509,2.51467284054285</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

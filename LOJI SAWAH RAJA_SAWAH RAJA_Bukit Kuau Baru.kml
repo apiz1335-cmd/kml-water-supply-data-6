@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="bukit_kuau_baru" id="bukit_kuau_baru">
+	<SimpleField name="fid" type="float"></SimpleField>
+</Schema>
+<Folder><name>bukit_kuau_baru</name>
+  <Placemark id="bukit_kuau_baru.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bukit_kuau_baru">
+		<SimpleData name="fid">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>101.955482771722,2.4573523426671 101.951007773215,2.44738530053819 101.952668946903,2.43380774825033 101.952457062504,2.42956158489439 101.953550386003,2.42689184146701 101.955940442024,2.42490860349237 101.95515223206,2.42363729709838 101.953016437318,2.42000136081156 101.94955000855,2.41269558673407 101.959211937144,2.40232172655908 101.970907955969,2.39805013707526 101.983926133444,2.39621945586791 101.991757380831,2.40577967995075 102.022590798573,2.43268052324766 102.017861538787,2.44208819056321 102.015929153068,2.44422398530512 101.979900329863,2.45303837630348 101.962000335835,2.4573099657873 101.955482771722,2.4573523426671</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

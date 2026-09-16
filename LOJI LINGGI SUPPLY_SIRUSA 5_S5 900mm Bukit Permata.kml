@@ -2,6 +2,58 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Folder>
 	<name>Sirusa 5</name>
+	<open>1</open>
+	<Document>
+		<name>900mm_sirusa_5_6.kml</name>
+		<StyleMap id="msn_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_ylw-pushpin">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Placemark>
+			<name>900mm_sirusa_5_6</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							101.8070676088763,2.555305894929536,0 101.8078841115255,2.555229540544385,0 101.8090536403096,2.555077142618706,0 101.8119184950929,2.554830589603817,0 101.8124695038946,2.554722568556066,0 101.8148003905999,2.55424144003638,0 101.8172083789162,2.553633681280498,0 101.817428325121,2.55429643567058,0 101.818012630222,2.555866980457165,0 101.8194199056136,2.554938663984498,0 101.8216569555059,2.554831257230741,0 101.8238399222459,2.55630400808626,0 101.8237299788508,2.558539308708908,0 101.8235685318927,2.561384082393897,0 101.8234998573684,2.564550126898992,0 101.8235435154871,2.565732948051687,0 101.8206843463723,2.565397953831223,0 101.8180829400268,2.565070166292233,0 101.8169748171696,2.564681949247695,0 101.8152418524799,2.562523130309317,0 101.813200584273,2.560897478092115,0 101.8116275017245,2.559906574793553,0 101.8098095357499,2.558578544297507,0 101.808795944104,2.557979382113713,0 101.8076142671757,2.557155701189354,0 101.8071280808549,2.556257927838114,0 101.8070676088763,2.555305894929536,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Document>
 	<Document id="root_doc">
 		<name>900mm_sirusa_5_5.kml</name>
 		<Schema name="900mm_sirusa_5_5" id="900mm_sirusa_5_5">
@@ -172,6 +224,6 @@
 			</Placemark>
 		</Folder>
 	</Document>
-	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1327"></atom:link>
 </Folder>
 </kml>

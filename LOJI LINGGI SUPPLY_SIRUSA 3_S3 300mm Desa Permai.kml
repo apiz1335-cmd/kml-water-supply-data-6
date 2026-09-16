@@ -45,57 +45,6 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Document>
-		<name>300mm_sirusa_3_desa_permai_2.kml</name>
-		<StyleMap id="msn_ylw-pushpin0">
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#sn_ylw-pushpin0</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#sh_ylw-pushpin0</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id="sh_ylw-pushpin0">
-			<IconStyle>
-				<scale>1.3</scale>
-				<Icon>
-					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-				</Icon>
-				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-			</IconStyle>
-			<PolyStyle>
-				<fill>0</fill>
-			</PolyStyle>
-		</Style>
-		<Style id="sn_ylw-pushpin0">
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-				</Icon>
-				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-			</IconStyle>
-			<PolyStyle>
-				<fill>0</fill>
-			</PolyStyle>
-		</Style>
-		<Placemark>
-			<name>300mm_sirusa_3_desa_permai_2</name>
-			<styleUrl>#msn_ylw-pushpin0</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							101.8177325861495,2.555131921108705,0 101.8174984258908,2.55439147194592,0 101.8173421728945,2.553832794273238,0 101.8172380315517,2.553572896725625,0 101.8176809096854,2.553404475997469,0 101.8186300190731,2.55310603934822,0 101.8193185173036,2.553096167044941,0 101.8195773048082,2.554378900022586,0 101.8195901455309,2.554702275618163,0 101.8177325861495,2.555131921108705,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-	</Document>
 	<Folder>
 		<name>300mm_sirusa_3_desa_permai</name>
 		<Placemark id="300mm_sirusa_3_desa_permai.1">
